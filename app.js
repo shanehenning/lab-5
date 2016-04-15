@@ -4,14 +4,14 @@ function sum(numOne, numTwo){
   sumFunction.textContent = '"The sum of ' + numOne + ' and ' + numTwo + ' is ' + sum + '."';
   return sum;
 }
-
+//Nice Code!!!
 function multiply(numOne, numTwo){
   var multiply = numOne * numTwo;
   var multFunction = document.getElementById('multFunction');
   multFunction.textContent = '"The sum of ' + numOne + ' and ' + numTwo + ' is ' + multiply + '."';
   return multiply;
 }
-
+//Wow amazeballs!!!
 function sumAndMultiply(numOne, numTwo, numThree){
   var sumTwo = sum(sum(numOne, numTwo), numThree);
   var multTwo = multiply(multiply(numOne, numTwo), numThree);
